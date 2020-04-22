@@ -4,7 +4,7 @@ class Teacher < User
 
   
   def teach 
-    "sample() method form : #{KNOWLEDGE.sample(2)}\n\n"
+    "#{KNOWLEDGE.sample(2)}"
     
   end 
   
