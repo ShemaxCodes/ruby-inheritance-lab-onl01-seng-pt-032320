@@ -4,5 +4,7 @@ class Teacher < User
 
   
   def 
+    
+  end 
   
 end
