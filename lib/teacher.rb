@@ -4,7 +4,7 @@ class Teacher < User
 
   
   def teach 
-    "#{KNOWLEDGE.sample(2)}\n\n"
+    KNOWLEDGE.sample(random: Random.new(1))
     
   end 
   
