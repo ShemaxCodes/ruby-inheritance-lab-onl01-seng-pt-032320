@@ -1,6 +1,6 @@
 class Student < User 
   
-  def initialize(array)
+  def initialize
     array = []
   end 
 
